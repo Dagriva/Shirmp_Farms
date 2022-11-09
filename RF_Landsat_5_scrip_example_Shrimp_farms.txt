@@ -38,7 +38,7 @@ var sample = agua.merge(suelo).merge(veg)
 //Split sample data for training and validation
 sample = sample.randomColumn();
 
-// 4) Trains random forest (RF) and classifies as vegetation, water, snow, and other
+// 4) Trains random forest (RF) and classifies as water, soil and vegetation
 //Sample the pixel values for each training point
 var bands = ['B1', 'B2', 'B3', 'B4',"B5","B6","B7"]
 var training = areaestudio.select(bands).sampleRegions({
