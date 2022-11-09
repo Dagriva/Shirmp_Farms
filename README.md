@@ -5,3 +5,7 @@ Is important to highlight that after the image classification a water mask for e
 
 Exmaple link of for the landsat 5 random forest image clasification in 
 https://code.earthengine.google.com/904f3120138c6c788b85586e09a26a60
+
+
+Exmaple link of for the landsat 8 random forest image clasification in 
+https://code.earthengine.google.com/61dbb04c4114141e7a05319de5dd0f67
