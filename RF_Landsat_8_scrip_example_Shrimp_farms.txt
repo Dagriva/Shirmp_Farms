@@ -52,6 +52,4 @@ var geometry = ee.Geometry.Rectangle([-116, 32,-104, 21.0]);
 // });
 
 
-//   maxPixels: 1e13
-// });
 
