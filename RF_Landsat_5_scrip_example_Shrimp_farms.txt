@@ -56,25 +56,3 @@ var geometry = ee.Geometry.Rectangle([-116, 32,-105, 22]);
 //   maxPixels: 1e10
 // });
 
-// // Make an image out of the land area attribute.
-
-// var classes = classified.reduceToVectors({
-//   reducer: ee.Reducer.countEvery(), 
-//   geometry: golfo, 
-//   geometryType: "polygon",
-//   scale: 30,
-//   eightConnected: false,
-//   labelProperty: 'LC',
-//   bestEffort: true,
-// });
-
-
-
-// // //Export Vector data.
-// Export.table.toDrive({
-//   collection: classes,
-//   description: 'RF_vec_2018',
-//   fileFormat: 'SHP',
- 
-
-// });
